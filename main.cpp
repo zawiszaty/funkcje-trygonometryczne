@@ -143,24 +143,28 @@ case '1':
     system("cls");
     cout<<"Sinus w kacie alfa = "<<sina(a,c);
 Beep( 400,300 );
+y=1;
     break;
 
     case '2':
         system("cls");
     cout<<"cosinus w kacie alfa "<<cosa(b,c);
     Beep( 400,300 );
+    y=1;
     break;
 
      case '3':
          system("cls");
     cout<<"Tangens w kacie alfa = "<<tga(a,b);
     Beep( 400,300 );
+    y=1;
     break;
 
      case '4':
          system("cls");
     cout<<"Cotangens w kacie alfa = "<<ctga(b,a);
     Beep( 400,300 );
+    y=1;
     break;
 
      case '5':
@@ -170,26 +174,31 @@ Beep( 400,300 );
     cout<<"Tangens alfa = "<<tga(a,b)<<endl;
     cout<<"Cotangens alfa = "<<ctga(b,a)<<endl;
     Beep( 400,300 );
+    y=1;
     break;
        case '6':
            system("cls");
     cout<<"Sinus w kacie beta = "<<cosa(b,c);
     Beep( 400,300 );
+    y=1;
     break;
     case '7':
         system("cls");
     cout<<"Cosinus w kacie beta = "<<sina(a,c);
     Beep( 400,300 );
+    y=1;
     break;
      case '8':
          system("cls");
     cout<<"Tangens w kacie beta = "<<ctga(b,a);
     Beep( 400,300 );
+    y=1;
     break;
      case '9':
          system("cls");
     cout<<"Cotangens w kacie beta = "<<tga(a,b);
     Beep( 400,300 );
+    y=1;
     break;
        case '0':
            system("cls");
@@ -198,6 +207,7 @@ Beep( 400,300 );
     cout<<"Tangens beta = "<<tga(a,b)<<endl;
     cout<<"Cotangens beta = "<<ctga(b,a)<<endl;
     Beep( 400,300 );
+    y=1;
     break;
        case'r':
         Beep( 400,300 );
