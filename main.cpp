@@ -45,27 +45,34 @@ int main()
     {
     system("cls");
 
-   cout << "Podaj a b c wzgledem kata alfa(jezeli nie znasz jakies dlugosci wstaw 0): " ;
+   cout << "Podaj a b c wzgledem kata alfa(jezeli nie znasz jakies dlugosci wstaw 0): "<<endl;
+    cout<<"Podaj A:";
     while(!(cin>>a))
     {
         system("cls");
-         cout<<"To nie jest liczba ";
+         cout<<"To nie jest liczba "<<endl;
+         cout<<"Podaj A:";
             cin.clear();
             cin.sync();
     }
     Beep( 400,300 );
+
+    cout<<"Podaj B:";
       while(!(cin>>b))
     {
         system("cls");
          cout<<"To nie jest liczba ";
+         cout<<"Podaj B:";
                 cin.clear();
             cin.sync();
     }
     Beep( 400,300 );
+    cout<<"Podaj C:";
       while(!(cin>>c))
     {
         system("cls");
         cout<<"To nie jest liczba ";
+        cout<<"Podaj C:";
                 cin.clear();
             cin.sync();
     }
